@@ -1,12 +1,12 @@
 pipeline {
 
     agent any
-/*
+
 	tools {
-        maven "maven3"
-        jdk "oraclejdk11"
+        maven "MAVEN"
+        jdk "OracleJDK11"
     }
-*/
+
     environment {
         registry = "yuriidevops/vprofile_app"
         registryCredential = 'dockerhub'
